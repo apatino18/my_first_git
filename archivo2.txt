@@ -1,0 +1,7 @@
+git remote -v	Muestra los repositorios remotos configurados.
+git remote add origin <url>	Agrega un repositorio remoto al proyecto.
+git diff	Muestra las diferencias entre archivos modificados y el último commit.
+git show <commit>	Muestra los detalles de un commit específico.
+git cherry-pick <commit>	Aplica un commit específico en la rama actual.
+git rebase <rama>	Reaplica los commits actuales encima de otra rama (reescribe historia).
+git clean -fd	Elimina archivos no rastreados (⚠️ irreversible).
